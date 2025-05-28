@@ -9,8 +9,6 @@ A V2Ray client for Android, support [Xray core](https://github.com/XTLS/Xray-cor
 [![GitHub Releases](https://img.shields.io/github/downloads/2dust/v2rayNG/latest/total?logo=github)](https://github.com/2dust/v2rayNG/releases)
 [![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/v2rayn)
 
-### Telegram Channel
-[github_2dust](https://t.me/github_2dust)
 
 ### Usage
 
@@ -20,8 +18,6 @@ A V2Ray client for Android, support [Xray core](https://github.com/XTLS/Xray-cor
 - latest official [domain list](https://github.com/Loyalsoldier/v2ray-rules-dat) and [ip list](https://github.com/Loyalsoldier/geoip) can be imported manually
 - possible to use third party dat file in the same folder, like [h2y](https://guide.v2fly.org/routing/sitedata.html#%E5%A4%96%E7%BD%AE%E7%9A%84%E5%9F%9F%E5%90%8D%E6%96%87%E4%BB%B6)
 
-### More in our [wiki](https://github.com/2dust/v2rayNG/wiki)
-
 ### Development guide
 
 Android project under V2rayNG folder can be compiled directly in Android Studio, or using Gradle wrapper. But the v2ray core inside the aar is (probably) outdated.  
@@ -30,3 +26,56 @@ For a quick start, read guide for [Go Mobile](https://github.com/golang/go/wiki/
 
 v2rayNG can run on Android Emulators. For WSA, VPN permission need to be granted via
 `appops set [package name] ACTIVATE_VPN allow`
+
+## OTHER GUI Clients
+
+- OpenWrt
+  - [PassWall](https://github.com/xiaorouji/openwrt-passwall), [PassWall 2](https://github.com/xiaorouji/openwrt-passwall2)
+  - [ShadowSocksR Plus+](https://github.com/fw876/helloworld)
+  - [luci-app-xray](https://github.com/yichya/luci-app-xray) ([openwrt-xray](https://github.com/yichya/openwrt-xray))
+- Asuswrt-Merlin
+  - [XRAYUI](https://github.com/DanielLavrushin/asuswrt-merlin-xrayui)
+- Windows
+  - [v2rayN](https://github.com/2dust/v2rayN)
+  - [Furious](https://github.com/LorenEteval/Furious)
+  - [Invisible Man - Xray](https://github.com/InvisibleManVPN/InvisibleMan-XRayClient)
+- Android
+  - [v2rayNG](https://github.com/2dust/v2rayNG)
+  - [X-flutter](https://github.com/XTLS/X-flutter)
+  - [SaeedDev94/Xray](https://github.com/SaeedDev94/Xray)
+- iOS & macOS arm64
+  - [Happ](https://apps.apple.com/app/happ-proxy-utility/id6504287215)
+  - [Streisand](https://apps.apple.com/app/streisand/id6450534064)
+  - [OneXray](https://github.com/OneXray/OneXray)
+- macOS arm64 & x64
+  - [V2rayU](https://github.com/yanue/V2rayU)
+  - [V2RayXS](https://github.com/tzmax/V2RayXS)
+  - [Furious](https://github.com/LorenEteval/Furious)
+  - [OneXray](https://github.com/OneXray/OneXray)
+- Linux
+  - [v2rayA](https://github.com/v2rayA/v2rayA)
+  - [Furious](https://github.com/LorenEteval/Furious)
+
+## Others that support VLESS, XTLS, REALITY, XUDP, PLUX...
+
+- iOS & macOS arm64
+  - [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)
+  - [Loon](https://apps.apple.com/us/app/loon/id1373567447)
+- Xray Tools
+  - [xray-knife](https://github.com/lilendian0x00/xray-knife)
+  - [xray-checker](https://github.com/kutovoys/xray-checker)
+- Xray Wrapper
+  - [XTLS/libXray](https://github.com/XTLS/libXray)
+  - [xtlsapi](https://github.com/hiddify/xtlsapi)
+  - [AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite)
+  - [Xray-core-python](https://github.com/LorenEteval/Xray-core-python)
+  - [xray-api](https://github.com/XVGuardian/xray-api)
+- [XrayR](https://github.com/XrayR-project/XrayR)
+  - [XrayR-release](https://github.com/XrayR-project/XrayR-release)
+  - [XrayR-V2Board](https://github.com/missuo/XrayR-V2Board)
+- Cores
+  - [mihomo](https://github.com/MetaCubeX/mihomo)
+  - [sing-box](https://github.com/SagerNet/sing-box)
+
+  
+### Forked from https://github.com/2dust/v2rayNG
